@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "dooku2"
+  description: "neuer doku test"
+  annotations:
+    github.com/project-slug: Fasttrack-dev/backstage-dooku-2
+    backstage.io/techdocs-ref: url:https://github.com/Fasttrack-dev/backstage-dooku-2
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "joseidon"
